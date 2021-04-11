@@ -8,7 +8,9 @@
 
 .bg-weather {
     background-image: url('./src/w8eovx.jpg');
-    height: 100vh;
+
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Montserrat', sans-serif;
 
     
@@ -30,6 +32,14 @@
 
 }
 
+.weather-card{
+    background: rgba( 74, 144, 226, 0.30 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
 
 .orange{
     color : rgba(242,122,12,1) ;
