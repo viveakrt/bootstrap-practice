@@ -29,3 +29,19 @@
     border: 1px solid rgba(255, 255, 255, 0.18);
 
 }
+
+.orange{
+    color : rgba(242,122,12,1) ;
+}
+
+.yellow{
+    color: rgb(255, 208, 0);
+}
+
+.blue {
+    color:rgb(44, 141, 231);
+}
+
+.dark-blue {
+    color: rgb(28, 28, 158);
+}
