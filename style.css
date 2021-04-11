@@ -6,6 +6,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.bg-social {
+    background: rgba(0, 0, 0);
+}
+
 .bg-weather {
     background-image: url('./src/w8eovx.jpg');
 
@@ -13,7 +17,7 @@
     background-repeat: no-repeat;
     font-family: 'Montserrat', sans-serif;
 
-    
+
 }
 
 .blue-pink-grad {
@@ -32,25 +36,34 @@
 
 }
 
-.weather-card{
-    background: rgba( 74, 144, 226, 0.30 );
+.weather-card {
+    background: rgba(74, 144, 226, 0.30);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.socail-card {
+    background: rgba( 255, 255, 255, 0.50 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 5.5px );
-    -webkit-backdrop-filter: blur( 5.5px );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
-.orange{
-    color : rgba(242,122,12,1) ;
+.orange {
+    color: rgba(242, 122, 12, 1);
 }
 
-.yellow{
+.yellow {
     color: rgb(255, 208, 0);
 }
 
 .blue {
-    color:rgb(44, 141, 231);
+    color: rgb(44, 141, 231);
 }
 
 .dark-blue {
