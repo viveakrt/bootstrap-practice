@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+.bg-body {
+    background-image: url('./src/96w8e8.png');
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-weather {
+    background-image: url('./src/w8eovx.jpg');
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+
+    
+}
+
+.blue-pink-grad {
+    background-image: linear-gradient(to bottom, rgba(119, 161, 211, 0.81), rgba(230, 132, 174, 0.31));
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+.blue-blue-grad {
+    background-image: linear-gradient(to bottom, rgba(119, 161, 211, 0.81), rgba(128, 217, 240, 0.31));
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
